@@ -1,14 +1,41 @@
+.DS_Store
+target
+*.iml
+.settings
+.project
+.classpath
+*~
+local-test
+out
+lib
+bin
+dependency-reduced-pom.xml
+derby.log
+hotspot.log
+.directory
+.java-version
+.graal-install
+hs_err_pid*.log
+dumps
+*.orig
+*.rej
+.factorypath
+graph-output.dot
+*.swp
+*.swo
+ObjectStore
+docker/distroless/bazel-*
+quarkus.log
+replay_*.logß
+nbactions.xml
+nb-configuration.xml
+.cache
+.jbang
+.sdkmanrc
+.envrc
+.idea
 .gradle
-/build/
-
-# Ignore Gradle GUI config
-gradle-app.setting
-
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
-
-# Cache of project
-.gradletasknamecache
-
-# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
-# gradle/wrapper/gradle-wrapper.properties
+.vscode/
+build/
+/.apt_generated_tests/
+/lsp/
